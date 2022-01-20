@@ -1,1 +1,23 @@
 /* styles go here */
+.field {
+  display: block;
+  margin: 10px 0;
+}
+
+.first-field {
+  display: block;
+  margin: 0 0 10px;
+}
+
+.last-field {
+  display: block;
+  margin: 10px 0 0;
+}
+
+.radio {
+  display: inline;
+}
+
+.fields {
+  margin-bottom: 20px;
+}
