@@ -14,7 +14,7 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
       <fieldset class="fields">
         <legend>Personal information</legend>
-        <label class="first-field">
+        <label class="field">
           Surname:
           <input type="text" name="surname" autocomplete="off">
         </label>
@@ -36,14 +36,14 @@
           Full date of birth:
           <input type="date" name="birthDate">
         </label>
-        <label class="last-field">
+        <label class="field">
           I accept the term of the agreement
           <input type="checkbox" name="agree">
         </label>
       </fieldset>
       <fieldset class="fields">
         <legend>Registration</legend>
-        <label class="first-field">
+        <label class="field">
           E-mail:
           <input
             type="email"
@@ -52,9 +52,10 @@
             required
           >
         </label>
-        <label class=" last-field">
+        <label class="field">
           Password:
-          <input type="password"
+          <input
+            type="password"
             name="password"
             minlength="4"
             maxlength="20"
@@ -65,7 +66,7 @@
       <fieldset class="fields">
         <legend>An interesting fact about you!</legend>
         Do you love cats?
-        <label class="radio first-field">
+        <label class="radio field">
           <input
             type="radio"
             name="cats"
@@ -97,18 +98,18 @@
             <option value="Lada">Lada</option>
           </select>
         </label>
-        <label class="last-field">
+        <label class="field">
           How do you rate our work?
           <input type="range" value="0" name="rateWork">
         </label>
       </fieldset>
       <fieldset class="fields">
         <legend>Additional info:</legend>
-        <label class="first-field">
+        <label class="field">
           Comments
           <textarea name="comments"></textarea>
         </label>
-        <label class="last-field">
+        <label class="field">
           Would you recommend us?
           <select name="recommendation">
             <option value="yes">yes</option>
